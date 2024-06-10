@@ -1,0 +1,7 @@
+<%- include("_nav") %>
+<section class="w-full px-10 py-3">
+  <h1 class="text-2xl font-medium mb-3">Title : <%= blog.title %></h1>
+  <p class="text-xl mb-3">Sub Title : <%= blog.subTitle %></p>
+  <p class="text-xl mb-3">content :</p>
+  <%- blog.htmlContent %>
+</section>
